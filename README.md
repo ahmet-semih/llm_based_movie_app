@@ -1,16 +1,60 @@
-# React + Vite
+# 🎬 Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based movie application that fetches popular movies and allows users to search and select favorite movies using The Movie Database (TMDB) API, with an integrated Gemini-powered AI chat for interactive movie recommendations.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Browse popular movies
+- Search for movies by title
+- Responsive design
+- Ask questions and get personalized recommendations via Gemini AI
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- TMDB API
+- Google Gemini API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher)
+- npm or yarn
+- TMDB API Key ([Get one here](https://www.themoviedb.org/settings/api))
+- Gemini API Key
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/login_exx1.git
+   cd login_exx1
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Create a `.env` file in the root directory:
+   ```
+   VITE_TMDB_API_KEY=your_api_key_here
+   ```
+
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Environment Variables
+
+| Variable | Description |
+|----------|-------------|
+| `VITE_TMDB_API_KEY` | Your TMDB API key |
+
+## License
+
+MIT
