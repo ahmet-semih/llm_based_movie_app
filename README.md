@@ -42,6 +42,7 @@ A React-based movie application that fetches popular movies and allows users to 
 3. Create a `.env` file in the root directory:
    ```
    VITE_TMDB_API_KEY=your_api_key_here
+   VITE_FIREBASE_API_KEY=your_api_key_here
    ```
 
 4. Start the development server:
@@ -49,11 +50,7 @@ A React-based movie application that fetches popular movies and allows users to 
    npm run dev
    ```
 
-## Environment Variables
 
-| Variable | Description |
-|----------|-------------|
-| `VITE_TMDB_API_KEY` | Your TMDB API key |
 
 ## License
 
