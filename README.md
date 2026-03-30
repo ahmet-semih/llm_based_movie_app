@@ -1,6 +1,6 @@
 # 🎬 Movie App
 
-A React-based movie application that fetches popular movies and allows users to search and select favorite movies using The Movie Database (TMDB) API, with an integrated Gemini-powered AI chat for interactive movie recommendations.
+A React-based movie application that fetches popular movies and allows users to search and select favorite movies using The Movie Database (TMDB) API, with an integrated Gemini-powered AI chat for interactive movie recommendations. https://login-try1-facee.web.app
 
 
 ## Features
